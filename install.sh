@@ -1,9 +1,5 @@
 #!/usr/bin/env bash
 
-apt-get install vim
-apt-get install bc
-apt-get install dkms
-
 evalpath=$(eval pwd)
 
 declare -a arr_deps=("raspberrypi-kernel-headers" "vim" "bc" "dkms")
